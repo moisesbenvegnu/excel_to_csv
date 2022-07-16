@@ -50,6 +50,7 @@ if uploaded_file is not None:
                 except:
                     st.info('Não foi possível pré-visualizar este arquivo')
 
-    st.info('Não foi possível realizar a conversão. Verifique se o arquivo utilizado atende aos requisitos para a conversão.')
+    except:
+        st.info('Não foi possível realizar a conversão. Verifique se o arquivo utilizado atende aos requisitos para a conversão.')
 
 st.markdown('Desenvolvido por Moises A. Benvegnu')
