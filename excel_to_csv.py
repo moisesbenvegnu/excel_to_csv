@@ -7,6 +7,7 @@ Created on Fri Jul 15 09:22:25 2022
 
 import streamlit as st
 import pandas as pd
+import openpyxl
 
 st.title('Conversor Excel para CSV')
 
