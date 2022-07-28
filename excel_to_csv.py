@@ -55,7 +55,7 @@ if uploaded_file is not None:
 
 '''
 Requisitos:
-- As tabelas devem ser colocadas em abas diferentes, para que possa ser gerado um arquivo CSV possível de ser lido.
+- As tabelas devem ser colocadas em abas diferentes, para que possam ser gerados arquivos CSV possíveis de serem lidos, como no exemplo da imagem acima.
 - As tabelas devem iniciar na primeira célula de cada aba (1ª linha e 1ª coluna).
 - Não mesclar células.
 - Não incluir o título na tabela, apenas no nome da aba. O título do arquivo CSV será o da aba.
