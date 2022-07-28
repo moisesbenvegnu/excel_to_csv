@@ -53,4 +53,13 @@ if uploaded_file is not None:
     except:
         st.info('Não foi possível realizar a conversão. Verifique se o arquivo utilizado atende aos requisitos para a conversão.')
 
+'''
+Requisitos:
+- As tabelas devem ser colocadas em abas diferentes, para que possa ser gerado um arquivo CSV possível de ser lido.
+- As tabelas devem iniciar na primeira célula de cada aba (1ª linha e 1ª coluna).
+- Não mesclar células.
+- Não incluir o título na tabela, apenas no nome da aba. O título do arquivo CSV será o da aba.
+- Deixar comentários e observações em aba separada.
+'''
+        
 st.markdown('Desenvolvido por Moises A. Benvegnu')
